@@ -1,0 +1,77 @@
+{
+  "name": "soohy00-devblog",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "gatsby build --log-pages",
+    "clean": "gatsby clean",
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "start": "gatsby develop",
+    "typecheck": "tsc --noEmit"
+  },
+
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^3.0.6",
+    "@chakra-ui/react": "^2.3.7",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mdx-js/mdx": "^2.1.5",
+    "@mdx-js/react": "^2.3.0",
+    "framer-motion": "^7.6.2",
+    "gatsby": "^5.0.1",
+    "gatsby-plugin-advanced-sitemap": "^10.8.3",
+    "gatsby-plugin-clarity": "^1.0.1",
+    "gatsby-plugin-feed": "^5.0.0",
+    "gatsby-plugin-gtag": "^1.0.13",
+    "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-mdx": "^5.0.0",
+    "gatsby-plugin-mdx-frontmatter": "^0.0.4",
+    "gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-plugin-typegen": "^3.1.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-gifs": "^1.2.0",
+    "gatsby-remark-images": "^7.0.0",
+    "gatsby-source-filesystem": "^5.0.0",
+    "gatsby-transformer-sharp": "^5.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-player": "^2.16.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-slug": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-syntax-highlighter": "^15.5.5",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "^4.8.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
